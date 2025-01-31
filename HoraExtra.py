@@ -55,7 +55,7 @@ def desenhar_linhas_laterais(largura, altura, mensagens):
             mensagem = mensagens[0]
             texto_inicio = (largura - 2 - len(mensagem)) // 2
             resultado += "|" + " " * texto_inicio + mensagem + " " * (largura - 2 - texto_inicio - len(mensagem)) + "|\n"
-        elif i == 2 * (altura // 3) - 1:S
+        elif i == 2 * (altura // 3) - 1:
             mensagem = mensagens[1]
             texto_inicio = (largura - 2 - len(mensagem)) // 2
             resultado += "|" + " " * texto_inicio + mensagem + " " * (largura - 2 - texto_inicio - len(mensagem)) + "|\n"
